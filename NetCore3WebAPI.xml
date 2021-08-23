@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetCore3WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:NetCore3WebAPI.Controllers.TestController.GetBestQuestions">
+            <summary>
+            This Gets Best Questions  - this API method will return the 5 top score questions.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NetCore3WebAPI.Controllers.TestController.GetBestAnswer(System.Int32)">
+            <summary>
+            This Gets Best Answer (int questionId) – this method will get a question id as parameter and 
+            return its 5 accepted and top score answers.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NetCore3WebAPI.Controllers.TestController.GetOwner(System.Int32)">
+            <summary>
+            This Gets Owner (int answerId) – this method will get an answer id and return the owner
+            information that the answer provides and more(location, user type, creation date, etc...)
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
